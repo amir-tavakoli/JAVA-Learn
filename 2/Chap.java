@@ -9,15 +9,10 @@ public class Chap {
         int j;
         for (i = add1; i > 0;){
 
-            for (j = add1; j > 1; ){
+            for (j = add1; j > 0; ){
                 System.out.print("*");
-                if (i == 0){
-                    System.out.println();
-
-                }
                 --j;
             }
-            System.out.print("*");
             System.out.println();
             --i;
         }
@@ -26,6 +21,7 @@ public class Chap {
 
     }
 }
+
 
 
 
